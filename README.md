@@ -6,4 +6,4 @@
 TMPDIR=/scratch/$USER
 mkdir -p "$TMPDIR"
 cd "$TMPDIR"
-
+cp <Lacie/pomerantzj/201123_A00269_0437_AHVH7MDRXX_fastqs_analysis/HVH7MDRXX/500_activated> $TMPDIR         
