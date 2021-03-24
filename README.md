@@ -10,7 +10,7 @@ module load CBI
 module load cellranger/5.0.1
 cellranger-atac count --id=HVH7MDRXX --reference=/opt/refdata-gex-GRCh38-2020-A.tar.gz
 
-                      --fastqs=$TMPDIR/500_activated --sample=500_activated \
+                      --fastqs=$TMPDIR/500_activated--sample=500_activated \
 
                       --localcores=8 \
 
