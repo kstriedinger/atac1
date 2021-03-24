@@ -8,7 +8,7 @@
 cp $HOME/500_activated $TMPDIR
 module load CBI
 module load cellranger/5.0.1
-cellranger-atac count --id=HVH7MDRXX --reference=/opt/refdata-cellranger-atac-GRCh38-1.2.0 \
+cellranger-atac count --id=HVH7MDRXX --reference=/opt/refdata-gex-GRCh38-2020-A.tar.gz
 
                       --fastqs=$TMPDIR/500_activated --sample=500_activated \
 
